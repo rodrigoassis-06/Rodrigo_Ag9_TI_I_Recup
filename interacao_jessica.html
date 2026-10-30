@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<style>
+  body {
+    margin: 0;
+    padding: 20px;
+    background-color: #f8fafc;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+    color: #1e293b;
+  }
+  .chat-box {
+    max-width: 860px;
+    margin: 0 auto;
+    background: #ffffff;
+    border: 1px solid #cbd5e1;
+    border-radius: 10px;
+    padding: 24px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+  }
+  .header {
+    border-bottom: 2px solid #8b5cf6;
+    padding-bottom: 12px;
+    margin-bottom: 20px;
+  }
+  .header h2 {
+    margin: 0;
+    color: #6d28d9;
+    font-size: 1.25rem;
+  }
+  .header span {
+    font-size: 0.85rem;
+    color: #64748b;
+  }
+  .message {
+    margin-bottom: 16px;
+    padding: 12px 16px;
+    border-radius: 8px;
+    line-height: 1.5;
+    font-size: 0.95rem;
+  }
+  .user {
+    background-color: #f3e8ff;
+    border-left: 4px solid #8b5cf6;
+    margin-left: 20px;
+  }
+  .ai {
+    background-color: #f1f5f9;
+    border-left: 4px solid #3b82f6;
+    margin-right: 20px;
+  }
+  .sender {
+    font-weight: bold;
+    margin-bottom: 4px;
+    font-size: 0.85rem;
+  }
+  .sender-user { color: #6d28d9; }
+  .sender-ai { color: #1d4ed8; }
+</style>
+</head>
+<body>
+
+<div class="chat-box">
+  <div class="header">
+    <h2>Entrevista de Levantamento de Requisitos: Empresa da Jéssica</h2>
+    <span>Agenda 09 - Tecnologias da Informação I (Recuperação) | Entrevistador: Rodrigo Assis</span>
+  </div>
+
+  <div class="message user">
+    <div class="sender sender-user">Rodrigo Assis (Analista):</div>
+    Olá, Jéssica! Atuando como proprietária da sua empresa, me conte: como funcionam suas operações hoje, quais os principais problemas que enfrenta e o que espera do novo sistema?
+  </div>
+
+  <div class="message ai">
+    <div class="sender sender-ai">Jéssica (Proprietária da Empresa):</div>
+    Olá, Rodrigo! Eu gerencio a <em>Doce Encanto</em>, uma confeitaria artesanal com loja física e encomendas online. Atualmente anotamos pedidos em cadernos e planilhas soltas. Nossos maiores problemas são:<br>
+    1. Esquecimento de encomendas e datas de entrega;<br>
+    2. Falta de controle de estoque de ingredientes perecíveis;<br>
+    3. Dificuldade em calcular o fluxo de caixa diário.<br>
+    Eu preciso de um sistema onde eu possa registrar pedidos com data/hora de entrega, controlar estoque e emitir relatórios de vendas.
+  </div>
+
+  <div class="message user">
+    <div class="sender sender-user">Rodrigo Assis (Analista):</div>
+    Excelente! Para atender rapidamente suas urgências sem interromper sua operação, proponho um Modelo Ágil com Scrum em Sprints quinzenais. Na 1ª Sprint entregamos o Módulo de Pedidos; na 2ª o Controle de Estoque; e na 3ª o Fluxo de Caixa. O que você acha?
+  </div>
+
+  <div class="message ai">
+    <div class="sender sender-ai">Jéssica (Proprietária da Empresa):</div>
+    Adorei a proposta, Rodrigo! Entregar em ciclos curtos de 2 semanas me dá segurança porque posso começar a usar o controle de pedidos imediatamente, enquanto o restante é desenvolvido. Como melhoria, sugiro que na 1ª Sprint os pedidos já enviem uma confirmação automática por WhatsApp ou e-mail para o cliente.
+  </div>
+</div>
+
+</body>
+</html>
